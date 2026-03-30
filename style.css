@@ -1,10 +1,20 @@
+/* reset */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generale */
 body {
-    background-color: #ffffff; /* Colore sfondo */
+    background-color: #ffffff;
     margin: 0 auto;
-    width: 512px;
+    max-width: 512px;
+    width: 100%;
     text-align: left;
 }
 
+/* sezioni varie */
 header {
     margin: 10px 15px;
 }
@@ -14,42 +24,12 @@ main {
     border-bottom: 2.5px solid black;
 }
 
-h1{
-    margin: 0;
-}
-h2 {
-    margin: 0;
-}
-
-p{
-    margin: 0;
-}
-
-.box1 {
-    box-sizing: border-box;
+.box {
     width: 450px;
     height: 170px;
     margin: 15px auto;
     border: 2.5px solid black;
-    padding: 15px 15px 50px;
-}
-
-.box2 {
-    box-sizing: border-box;
-    width: 450px;
-    height: 170px;
-    margin: 15px auto;
-    border: 2.5px solid black;
-    padding: 15px 15px 25px; 
-}
-
-.box3 {
-    box-sizing: border-box;
-    width: 450px;
-    height: 170px;
-    margin: 15px auto;
-    border: 2.5px solid black;
-    padding: 15px 15px 80px; 
+    padding: 15px;
 }
 
 footer{
